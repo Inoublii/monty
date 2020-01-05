@@ -38,7 +38,7 @@ void (*f)(stack_t **stack, unsigned int x);
 int main(int argc, char **argv);
 void pallit(stack_t **stack, unsigned int x);
 void pushit(stack_t **stack, unsigned int x);
-void reads(char *mystr, stack_t **stack);
+void reads(char *str, stack_t **stack);
 void fm(stack_t **stack);
 void check(char **rec, stack_t **stack, int a);
 #endif
