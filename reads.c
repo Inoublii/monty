@@ -28,10 +28,10 @@ void reads(char *str, stack_t **stack)
 		}
 		free(x);
 		fclose(file);
-	}
-	else
-	{
-		fprintf(stderr, "Error: Can't open file, %s\n", str);
-		exit(EXIT_FAILURE);
-	}
+}
+else
+{
+	fprintf(stderr, "Error: Can't open file, %s\n", str);
+	exit(EXIT_FAILURE);
+}
 }
