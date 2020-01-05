@@ -3,13 +3,13 @@ void check(char **rec, stack_t **stack, int a)
 {
 
 	int x = 0;
-	instruction_t inout[] = {
-		{"push", pushit},
+instruction_t inout[] = {
+	{"push", pushit},
 		{"pall", pallit},
-		{"pint", pintit},
+	{"pint", pintit},
 		{"pop", popit},
 
-		{NULL, NULL}
+	{NULL, NULL}
 };
 (void)rec;
 	(void)x;
