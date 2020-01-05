@@ -1,8 +1,8 @@
 #include "monty.h"
 /**
- *main - the
- *@argc: arguemts
- *@argv: std
+ *main - main
+ *@argc: int
+ *@argv: char
  *Return: 0
  */
 
