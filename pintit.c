@@ -5,7 +5,7 @@
  *
  * @ln: unsigned int
  */
-void _pint(stack_t **stack, unsigned int ln)
+void pintit(stack_t **stack, unsigned int ln)
 {
 	if (*stack == NULL)
 	{
