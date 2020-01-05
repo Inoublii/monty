@@ -12,9 +12,7 @@ int main(int argc, char **argv)
 
 	stack = malloc(sizeof(stack_t));
 	*stack = '\0';
-
-	/* extern int global; */
-
+	
 	(void)mighty;
 	if (argc >= 2 && argc <= 3)
 		reads(argv[1], stack);
