@@ -6,6 +6,9 @@ void check(char **rec, stack_t **stack, int a)
 	instruction_t inout[] = {
 		{"push", pushit},
 		{"pall", pallit},
+		{"pint", pintit},
+		{"pop", popit},
+
 		{NULL, NULL}
 };
 (void)rec;

@@ -19,3 +19,4 @@ void popit(stack_t **stack, unsigned int x)
 	head = (*stack)->next;
 	free(*stack);
 	*stack = head;
+}
