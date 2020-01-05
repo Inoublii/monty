@@ -1,8 +1,8 @@
 #include "monty.h"
 /**
- *main - this is the main function to process all functions
- *@argc: the two arguemts
- *@argv: stdi for excev
+ *main - the
+ *@argc: arguemts
+ *@argv: std
  *Return: 0
  */
 

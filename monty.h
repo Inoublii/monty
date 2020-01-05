@@ -33,9 +33,12 @@ struct stack_s *next;
 typedef struct instruction_s
 {
 char *opcode;
-void (*f)(stack_t **stack, unsigned int line_number);
+void (*f)(stack_t **stack, unsigned int x);
 } instruction_t;
 int main(int argc, char **argv);
+void pallit(stack_t **stack, unsigned int x);
+void pushit(stack_t **stack, unsigned int x);
 void reads(char *mystr, stack_t **stack);
 void fm(stack_t **stack);
+void check(char **rec, stack_t **stack, int a);
 #endif
