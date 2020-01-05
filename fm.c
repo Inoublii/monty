@@ -1,8 +1,9 @@
 #include "monty.h"
 /**
  *fm - main function
- *@stack: receives
+ *@stack: stack
  *Return: 0
+ *
  */
 void fm(stack_t **stack)
 {
