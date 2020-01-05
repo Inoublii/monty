@@ -9,21 +9,21 @@
 void reads(char *str, stack_t **stack)
 
 	{
-	int count = 0;
+int count = 0;
 	FILE *file = fopen(str, "r");
-	size_t bufsize = 0;
+size_t bufsize = 0;
 
-	if (file)
-	{
-		char *x = NULL;
+if (file)
+{
+	char *x = NULL;
 		char **arg;
 
 		(void)stack;
 
-		while (getline(&x, &bufsize, file) != -1)
-		{
-			count++;
-			arg = strtock(x);
+	while (getline(&x, &bufsize, file) != -1)
+{
+	count++;
+arg = strtock(x);
 			check(arg, stack, count);
 		}
 		free(x);
