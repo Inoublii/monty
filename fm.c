@@ -6,15 +6,15 @@
  */
 void fm(stack_t **stack)
 {
-	stack_t *head;
+stack_t *head;
 
-	head = *stack;
+head = *stack;
 	if (!head)
 		return;
-	while (head->next)
+while (head->next)
 	{
-		head = head->next;
-		free(head->prev);
-	}
-	free(head);
+	head = head->next;
+free(head->prev);
+}
+free(head);
 }
