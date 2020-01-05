@@ -13,13 +13,13 @@ void check(char **rec, stack_t **stack, int a)
 };
 (void)rec;
 	(void)x;
-	(void)inout;
-	(void)stack;
+(void)inout;
+(void)stack;
 	(void)a;
-	for (x = 0; inout[x].opcode; x++)
+for (x = 0; inout[x].opcode; x++)
 	{
-		if (!(strcmp(inout[x].opcode, rec[0])))
-		{
+if (!(strcmp(inout[x].opcode, rec[0])))
+	{
 if (!strcmp(rec[0], "push"))
 inout[x].f(stack, (unsigned int)a);
 break;
