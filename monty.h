@@ -39,6 +39,8 @@ int main(int argc, char **argv);
 void pallit(stack_t **stack, unsigned int x);
 void pushit(stack_t **stack, unsigned int x);
 void reads(char *str, stack_t **stack);
+char **strtock(char *line);
+char *strcp(char *str);
 void pintit(stack_t **stack, unsigned int ln);
 void fm(stack_t **stack);
 void check(char **rec, stack_t **stack, int a);

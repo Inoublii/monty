@@ -23,8 +23,8 @@ void reads(char *str, stack_t **stack)
 		while (getline(&x, &bufsize, file) != -1)
 		{
 			count++;
+			arg = strtock(x);
 			check(arg, stack, count);
-			fm(arg);
 		}
 		free(x);
 		fclose(file);

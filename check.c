@@ -1,18 +1,23 @@
 #include "monty.h"
 void check(char **rec, stack_t **stack, int a)
 {
+
 	int x = 0;
 	instruction_t inout[] = {
 		{"push", pushit},
 		{"pall", pallit},
 		{NULL, NULL}
 };
-(void)inout;
+(void)rec;
+	(void)x;
+	(void)inout;
+	(void)stack;
+	(void)a;
 	for (x = 0; inout[x].opcode; x++)
 	{
+		if (!(strcmp(inout[x].opcode, rec[0])))
+		{
 if (!strcmp(rec[0], "push"))
-{
-mighty = atoi(rec[1]);
 inout[x].f(stack, (unsigned int)a);
 break;
 }
