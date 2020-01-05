@@ -41,6 +41,7 @@ void pushit(stack_t **stack, unsigned int x);
 void reads(char *str, stack_t **stack);
 char **strtock(char *line);
 char *strcp(char *str);
+void popit(stack_t **stack, unsigned int x);
 void pintit(stack_t **stack, unsigned int ln);
 void fm(stack_t **stack);
 void check(char **rec, stack_t **stack, int a);
